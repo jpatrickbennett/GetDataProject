@@ -6,6 +6,15 @@ This script combines the test and training data, applies descriptive labels to t
 
 This subsetting is done using grep to only include measurement variables with "mean()" or "std()" in their name.
 
+This script takes the Samsung data and processes it by doing the following:
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+The output is the summary data from step 5
+
 
 There are 30 subjects labeled by Subject_ID.
 

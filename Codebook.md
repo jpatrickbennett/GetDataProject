@@ -1,11 +1,4 @@
-#README for run_analysis.R
-
-This script uses the Samsung wearable data and depends on the "UCI HAR Dataset" folder being saved in the working directory.
-
-This script combines the test and training data, applies descriptive labels to the activities and variables, subsets to only includes variable measurements on the mean and standard deviation, and then produces a summary dataset that includes the mean of each variable summarized by Subject ID and activity.
-
-This subsetting is done using grep to only include measurement variables with "mean()" or "std()" in their name.
-
+#Codebook for run_analysis.R
 
 There are 30 subjects labeled by Subject_ID.
 
