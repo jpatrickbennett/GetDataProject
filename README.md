@@ -10,18 +10,20 @@ This subsetting is done using grep to only include measurement variables with "m
 There are 30 subjects labeled by Subject_ID.
 
 There are 6 activities, labeled with factors:
-        1 WALKING
-        2 WALKING_UPSTAIRS
-        3 WALKING_DOWNSTAIRS
-        4 SITTING
-        5 STANDING
-        6 LAYING
+        [1] WALKING
+        [2] WALKING_UPSTAIRS
+        [3] WALKING_DOWNSTAIRS
+        [4] SITTING
+        [5] STANDING
+        [6] LAYING
+
+In the output table, [1] is Subject_ID, [2] is activity (per above).
 
 There are then 66 variables that represent the average of the underlying variable measurements across each Subject_ID and activity.
 
-These variables are:
- [1] "Subject_ID"                 
- [2] "activity"                   
+The units and specific information are included in the quoted original README.txt that is below.
+
+These variables are:                  
  [3] "tBodyAcc-mean()-X"          
  [4] "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"          
